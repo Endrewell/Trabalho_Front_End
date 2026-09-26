@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>                          <!-- cabeça do código -->
+<head>
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify - Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<img src="logo.png" alt="Logo Sportify">
-
+<!-- Logo -->
+  <img src="logo.png" alt="Logo Spotify">
+<!-- Frase inicial -->
   <header>
     <h1>Olá de novo</h1>
   </header>
 
   <main>
-    <form action="#" method="POST">  <!-- action="#" achado esse metodo na IA para nao precisa fazer um pagina, somente recarrega -->
+    <form action="#" method="POST"> <!-- action="#" achado esse metodo na IA para nao precisa fazer um pagina, somente recarrega -->
       <label for="email"><strong>E-mail</strong></label>
       <input type="email" id="email" placeholder="Digite seu e-mail" required>
       
@@ -22,4 +23,23 @@
     </form>
 
     <p>Ou</p>
+<!-- Botões de tipos diferentes de login -->
+    <button>Continuar com número de telefone</button>
+    <button>Continuar com Google</button>
+    <button>Continuar com Facebook</button>
+    <button>Continuar com Apple</button>
+<!-- Criar conta -->
+    <p>Não tem conta?</p>
+    <button><strong>Inscreva-se</strong></button>
+    <!-- Termos de serviço) -->
+    <footer>
+      <p>
+        Este site é protegido pelo reCAPTCHA e está sujeito à <br>
+        Política de Privacidade e aos Termos de Serviço do Google.
+      </p>
+    </footer>
+
   </main>
+
+</body>
+</html>
