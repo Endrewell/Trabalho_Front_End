@@ -11,22 +11,26 @@
   <img src="logo.png" alt="Logo Spotify">
   <!-- Frase inicial -->
   <header>
-    <h1>Olá de novo</h1>
+    <h1><strong>Olá de novo</strong></h1>
   </header>
 
   <main>
-    <form action="#" method="POST"> <!-- action="#" achado esse metodo na IA para nao precisa fazer um pagina, somente recarrega -->
-      <label for="email"><strong>E-mail</strong></label>
-      <input type="email" id="email" placeholder="Digite seu e-mail" required>
-      
-      <button type="submit">Continuar</button>
-    </form>
-
-    <p>Ou</p>
+      <form action="#" method="POST" novalidate> <!-- action="#" achado esse metodo na IA para nao precisa fazer um pagina, somente recarrega -->
+    <label for="text"><strong>E-mail</strong></label>
+    <input type="text" id="text" placeholder="Digite seu e-mail" required>
+  
+  <!-- Mensagem de erro de email -->
+    <span class="mensagem-erro">
+    ⓘ Informe seu endereço de e-mail.
+    </span>
+  
+    <button type="submit">Continuar</button>
+  </form>
+    <p>ou</p>
     <!-- Botões de tipos diferentes de login -->
     <button type="button" class="btn-social">
       <img src="telefone.png" alt="Telefone" class="icone">
-      <span>Continuar com um número de telefone</span>
+      <span>Continuar com um número de <br>telefone</span> <!-- Adicionado a tag br para quebra a linha -->
     </button>
     <button type="button" class="btn-social">
       <img src="google.png" alt="Google" class="icone">
