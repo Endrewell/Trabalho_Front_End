@@ -21,8 +21,14 @@
   
   <!-- Mensagem de erro de email -->
     <span class="mensagem-erro">
-    ⓘ Informe seu endereço de e-mail.
+      ⓘ Informe seu endereço de e-mail.
     </span>
+
+    <!-- Personalização -->
+    <div class="opcao-lembrar">
+      <input type="checkbox" id="lembrar">
+      <label for="lembrar">Lembrar de mim</label>
+    </div>
   
     <button type="submit">Continuar</button>
   </form>
@@ -30,7 +36,7 @@
     <!-- Botões de tipos diferentes de login -->
     <button type="button" class="btn-social" onclick="location.reload()">
       <img src="telefone.png" alt="Telefone" class="icone">
-      <span>Continuar com um número de <br>telefone</span> <!-- Adicionado a tag br para quebra a linha -->
+      <span>Continuar com um número de <br>telefone</span>
     </button>
     <button type="button" class="btn-social" onclick="location.reload()">
       <img src="google.png" alt="Google" class="icone">
@@ -46,7 +52,7 @@
     </button>
     <!-- Criar conta -->
     <p>Não tem conta?</p>
-    <button type="button" onclick="location.reload()"><strong>Inscreva-se</strong></button>
+    <button type="button" class="btn-inscrever" onclick="location.reload()"><strong>Inscreva-se</strong></button>
     <!-- Termos de serviço) -->
     <footer class="rodape">
     <p>Este site é protegido pelo reCAPTCHA e está sujeito à<br>   <!-- Ajustado frase de termos de serviço -->
